@@ -17,11 +17,8 @@ We constructed gene co-expression networks (Coexpression Graphs) for each cancer
   EGFR,KRAS
   ...
   Usage: These graphs define the structure (edge_index) for the GCN model.
-  2. Node feature
-  Each node is assigned a feature vector that integrates multiple biolog-
-ical signals. Specifically, we adopt four multiomics features, namely somatic mutation
-rate, copy number alteration (CNA), DNA methylation, and gene expression, follow-
-ing the design of EMOGI. In addition, we incorporate pathway-derived features
-encoded as binary indicators, reflecting gene membership in curated pathways from
-databases such as KEGG
+2. Node Features
+
+Each node is assigned a feature vector that integrates multiple biological signals. Specifically, we adopt four multi-omics features: somatic mutation rate, copy number alteration (CNA), DNA methylation, and gene expression, following the design of EMOGI. In addition, we incorporate pathway-derived features encoded as binary indicators, reflecting gene membership in curated pathways from databases such as KEGG and Reactome.
+
 
